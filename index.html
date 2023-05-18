@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+    <!--=============  FONT  =============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <!--=============  CSS  =============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!--=============  UNICONS  =============-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <link rel="icon" type="image/png" href="assets/img">
+
+</head>
+<body>
+
+    <main class="main">
+        <!--=========================HOME================================-->
+        <section class="home section" id="home">
+            <div class="home__content grid">
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/daniel-bessa-081a08206/" class="home__social-icon">
+                        <i class="uil uil-linkedin-alt" alt="LinkedIn"></i>
+                    </a>
+                    <a href="https://github.com/amorabot" class="home__social-icon">
+                        <i class="uil uil-github-alt" alt="Github"></i>
+                    </a>
+                    <a href="https://amorabot.itch.io/" class="home__social-icon">
+                        <i class="uil uil-puzzle-piece" alt="Itch.io"></i>
+                    </a>
+                </div>
+
+                <div class="home__img" >
+                    <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                            130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                            97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                            0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                            165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                            129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                            -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                            <image class="home__blob-img" x="0" y="-12" href="assets/img/profilehome.jpg"/>
+                        </g>
+                    </svg>
+                </div>
+
+                <div class="home__data">
+                    <h1 class="home__title">Olá, sou o Daniel!</h1>
+                    <h3 class="home__subtitle">Backend developer</h3>
+                    <p class="home__description">
+                        Me chamo Daniel e atualmente estou cursando Sistemas e Mídias Digitais na Universidade Federal do Ceará! Desde muito jovem sempre fui um amante de computadores e escolhi seguir o caminho da programação pela paixão pela área!
+                        Atualmente sou desenvolvedor Java, mas também possuo um background em Design gráfico e de jogos, além de um interesse pela ciência de dados.
+                        
+                    </p>
+                    <a href="#footer" class="button button--flex">
+                        Entre em contato! <i class="uil uil-message button__icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--=========================SOBRE================================-->
+        <section class="about section dark" id="about">
+            <h2 class="section__title" style="color: hsl(140, 64%, 59%)">Sobre mim</h2>
+            <span class="section__subtitle">Competências de desenvolvedor</span>
+
+            <div class="about__container container grid">
+                <img src="assets/img/profiletech.png" alt="" class="about__img">
+                <div class="about__data">
+                    <p class="about__description">
+                        Desenvolvedor com experîencia em várias tecnologias, linguagens e frameworks (Spring Boot, Docker, Node.js...) e conhecimentos bastante diversificados, abrangindo do design gráfico até a implementação e design de jogos.
+                        <br>Dentre os trabalhos publicados estão Aplicações web, jogos e até Plug-ins em Java.
+                    </p>
+                    <div class="about__info">
+                        <span class="about__info-title"><i class="uil uil-coffee"></i> 01+</span>
+                        <span class="about__info-name">Anos<br>de experiencia</span>
+                    </div>
+                    <div class="about__info">
+                        <span class="about__info-title"><i class="uil uil-check-circle"></i> 05+</span>
+                        <span class="about__info-name">Projetos<br>publicados</span>
+                    </div>
+                    <div class="about__info">
+                        <span class="about__info-title"><i class="uil uil-clipboard-alt"></i> 02</span>
+                        <span class="about__info-name">Empresas<br>trabalhadas</span>
+                    </div>
+                    <div class="about__buttons">
+                        <a download="" href="assets/pdf/cv_0561608346253843.pdf" class="button button--flex">
+                            Baixe o currículo <i class="uil uil-download-alt" class="button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=========================SKILLS================================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">Nível técnico</span>
+
+            <div class="skills__container container grid">
+                <div>
+                    <!--===============SKILLS 1===============-->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-server-network skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Backend dev</h1>
+                                <span class="skills__subtitle">Principais habilidades</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">Spring Boot</h3>
+                                    <span class="skills_number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__spring">  
+                                        
+                                    </span>
+                                </div>
+                            </div>
+
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">Docker</h3>
+                                    <span class="skills_number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__docker">  
+
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">PostgreSQL</h3>
+                                    <span class="skills_number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__postgres">  
+
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">Node+Express</h3>
+                                    <span class="skills_number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__node">  
+
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">Java</h3>
+                                    <span class="skills_number">99%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__java">  
+
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills_number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__python">  
+
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--===============SKILLS 2===============-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Frontend dev</h1>
+                                <span class="skills__subtitle">Algumas habilidades</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills_number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html">  
+                                        
+                                    </span>
+                                </div>
+                            </div>
+
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills_number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css">  
+
+                                    </span>
+                                </div>
+                            </div>
+
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">Javascript</h3>
+                                    <span class="skills_number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js">  
+
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--===============SKILLS 3===============-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-robot skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Game dev</h1>
+                                <span class="skills__subtitle">Principais conhecimentos</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">Godot</h3>
+                                    <span class="skills_number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__godot">  
+                                        
+                                    </span>
+                                </div>
+                            </div>
+
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">I.A. Aplicada</h3>
+                                    <span class="skills_number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__IA">  
+
+                                    </span>
+                                </div>
+                            </div>
+
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">Design patterns</h3>
+                                    <span class="skills_number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__patterns">  
+
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=========================MURAL================================-->
+        <div class="spacer downwaves"></div>
+        <section class="wine" id="creative">
+            <h2 class="section__title" style="color: hsl(56, 100%, 60%)"><i class="uil uil-brush-alt"></i> Criativo</h2>
+            <span class="section__subtitle" style="color: hsl(56, 40%, 84%)">Vai muito além de código! Aqui está um mural com algumas criações minhas!</span>
+            <img src="assets/img/pfpixel.png" style="margin: 10px; padding: 5px; margin-bottom: 150px; background-color: #FFF;">
+
+            <div class="mural__container">
+                <div class="mural__item" style="grid-area: footer;">
+                    <img src="assets/img/bgwhaleeater.png" alt="" class="mural__img">
+                <span class="mural__subtitle">Ilustrações pra jogos</span>
+                </div>
+
+                <div class="mural__item">
+                    <img src="assets/img/OC.png" alt="" class="mural__img">
+                <span class="mural__subtitle">Design de personagens</span>
+                </div>
+
+                <div class="mural__item">
+                    <img src="assets/img/banner.png" alt="" class="mural__img">
+                <span class="mural__subtitle">Mais ilustrações</span>
+                </div>
+
+                <div class="mural__item">
+                    <img src="assets/img/whale.png" alt="" class="mural__img">
+                <span class="mural__subtitle">Jogo em #8º lugar em competição mundial!</span>
+                </div>
+
+                <div class="mural__item">
+                    <img src="assets/img/crusade.png" alt="" class="mural__img">
+                <span class="mural__subtitle">Mais jogos publicados</span>
+                </div>
+            </div>
+        </section>
+        <div class="spacer upperwaves"></div>
+        <!--=========================FOOTER================================-->
+        <footer class="footer" id="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title"><i class="uil uil-database"></i> Daniel Amora</h1>
+                        <span class="footer__subtitle">Developer</span>
+                    </div>
+
+                    <!--<ul class="footer__links">
+                        <li>
+                            <a href="#services" class="footer__link">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="#services" class="footer__link">Github</a>
+                        </li>
+                        <li>
+                            <a href="#services" class="footer__link">Itch.io</a>
+                        </li>
+                        <li>
+                            <a href="#services" class="footer__link">E-mail</a>
+                        </li>
+                    </ul>-->
+
+                    <div class="footer__socials">
+                        <a href="https://twitter.com/amoradmora" target="_blank" class="footer__social">
+                            <i class="uil uil-twitter-alt"></i>
+                            amoradmora
+                        </a>
+
+                        <a href="https://www.instagram.com/daniel_amora/" target="_blank" class="footer__social">
+                            <i class="uil uil-instagram"></i>
+                            daniel_amora
+                        </a>
+
+                        <a href="" target="_blank" class="footer__social">
+                            <i class="uil uil-at"></i>
+                            danielamorimbessa@hotmail.com
+                        </a>
+                    </div>
+
+                    <p class="footer__copy">&#169; Daniel Amorim. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </footer>
+    
+    </main>
+
+    <nav class="navbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                        <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/>
+                    </svg>
+                    <span class="link-text">Home</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#about" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160v96H192 320 512V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM512 288H320v32c0 17.7-14.3 32-32 32H224c-17.7 0-32-14.3-32-32V288H0V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V288z"/></svg>
+                    <span class="link-text">Sobre mim</span>
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                <a href="#skills" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                        <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+                    <span class="link-text">Conhecimentos técnicos</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#creative" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                        <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path d="M162.4 6c-1.5-3.6-5-6-8.9-6h-19c-3.9 0-7.5 2.4-8.9 6L104.9 57.7c-3.2 8-14.6 8-17.8 0L66.4 6c-1.5-3.6-5-6-8.9-6H48C21.5 0 0 21.5 0 48V224v22.4V256H9.6 374.4 384v-9.6V224 48c0-26.5-21.5-48-48-48H230.5c-3.9 0-7.5 2.4-8.9 6L200.9 57.7c-3.2 8-14.6 8-17.8 0L162.4 6zM0 288v32c0 35.3 28.7 64 64 64h64v64c0 35.3 28.7 64 64 64s64-28.7 64-64V384h64c35.3 0 64-28.7 64-64V288H0zM192 432a16 16 0 1 1 0 32 16 16 0 1 1 0-32z"/></svg>
+                        <span class="link-text">Criatividade solta</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="https://www.linkedin.com/in/daniel-bessa-081a08206/" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/>
+                    </svg>
+                        <span class="link-text">LinkedIn</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="https://github.com/amorabot" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                        <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>
+                    </svg>
+                        <span class="link-text">Github</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="https://amorabot.itch.io/" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                        <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path d="M192 64C86 64 0 150 0 256S86 448 192 448H448c106 0 192-86 192-192s-86-192-192-192H192zM496 168a40 40 0 1 1 0 80 40 40 0 1 1 0-80zM392 304a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zM168 200c0-13.3 10.7-24 24-24s24 10.7 24 24v32h32c13.3 0 24 10.7 24 24s-10.7 24-24 24H216v32c0 13.3-10.7 24-24 24s-24-10.7-24-24V280H136c-13.3 0-24-10.7-24-24s10.7-24 24-24h32V200z"/>
+                    </svg>
+                        <span class="link-text">Itch.io</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#footer" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        
+                        <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+                    <span class="link-text">Contatos</span>
+                </a>
+            </li>
+
+        </ul>
+    </nav>
+    <!--=============  JS  =============-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
